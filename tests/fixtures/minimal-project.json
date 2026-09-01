@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fixture-project",
+  "name": "Fixture Project",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "settings": {
+    "aspectRatio": "16:9",
+    "frameRate": 24,
+    "outputDirectory": "exports",
+    "developmentMode": false,
+    "bypass": false
+  },
+  "characters": [],
+  "objects": [],
+  "environments": [],
+  "references": [],
+  "shots": [],
+  "storyboardFrames": [],
+  "assets": [],
+  "generations": [],
+  "providers": [],
+  "timeline": {
+    "durationSeconds": 0,
+    "frameRate": 24,
+    "clips": [],
+    "audioTracks": []
+  },
+  "exports": []
+}

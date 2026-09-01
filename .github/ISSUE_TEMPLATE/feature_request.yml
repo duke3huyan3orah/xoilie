@@ -1,0 +1,39 @@
+name: Feature request
+description: Propose a focused workflow or engineering improvement
+title: "feature: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user or contributor problem needs to be solved?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe observable behavior without assuming an implementation.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Creative planning
+        - Provider
+        - Asset system
+        - Rendering
+        - CLI
+        - OpenCode skill
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and alternatives
+      description:
+        Include provider terms, model licenses, hardware needs, or alternatives considered.

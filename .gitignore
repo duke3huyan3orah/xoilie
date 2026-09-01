@@ -1,0 +1,64 @@
+# Dependencies and package-manager state
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials.json
+
+# Build, test, and tool output
+dist/
+build/
+coverage/
+.eslintcache
+*.tsbuildinfo
+.cache/
+.turbo/
+.tmp/
+tmp/
+temp/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# XOILIE runtime data and generated creative media
+.xoilie/
+generated/
+outputs/
+renders/
+exports/
+models/
+checkpoints/
+*.ckpt
+*.safetensors
+*.gguf
+*.onnx
+*.pt
+*.pth
+
+# Local editor and operating-system files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python environments and caches used by optional local-model tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
